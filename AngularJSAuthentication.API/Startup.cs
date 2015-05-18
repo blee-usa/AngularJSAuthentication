@@ -56,10 +56,11 @@ namespace AngularJSAuthentication.API
             //Configure Google External Login
             googleAuthOptions = new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "xxxxxx",
-                ClientSecret = "xxxxxx",
+                ClientId = "349489669365-o3snmtu29ourusl4uu48u6avov78eqpi.apps.googleusercontent.com", //BL
+                ClientSecret = "ewavQBe4L411pwMG05WUnGW_",
                 Provider = new GoogleAuthProvider()
             };
+
             app.UseGoogleAuthentication(googleAuthOptions);
 
             //Configure Facebook External Login
